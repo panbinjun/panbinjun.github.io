@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: xoxo
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -88,8 +88,8 @@ menu:
   archives: /archives
   tags: /tags
   search: /search
-  about: https://0xff000000.com
-  rss: /atom.xml
+  about:
+  rss:
 
 search:
   path: search.xml
@@ -98,12 +98,12 @@ search:
   limit: 10000
 
 #RSS feed https://github.com/hexojs/hexo-generator-feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content_limit: 140
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+#   hub:
+#   content_limit: 140
 
 
 sitemap:
@@ -113,8 +113,3 @@ disqus_shortname: XXX
 
 google_analytics: XXX
 baidu_analytics: FuckUBaidu
-
-#footer
-index_page: https://blog.0xff000000.com
-main_site: https://0xff000000.com
-github: https://github.com/KevinOfNeu
